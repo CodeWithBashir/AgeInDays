@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <title>Javascript on Steriods</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary flex-center fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white text-uppercase" href="#">AgeInDays</a>
+            <button class="navbar-toggler  bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav " aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-white text-uppercase" aria-current="page"
+                            href="/index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container py-5 my-5 text-center">
+        <h2>Calculate Your Age in Days</h2>
+        <hr>
+        <button class="btn btn-primary mx-2" onclick="ageInDays()">Click Me</button>
+        <button class="btn btn-danger" onclick="reset()">Reset</button>
+        <hr>
+        <div id="resultGoesHere">
+
+        </div>
+        <hr>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="script.js"></script>
+
+
+    <footer class="bg-primary py-4 my-4 text-center text-white">
+        <p class="my-4">&copy; Copyright resserved 2021 | and made with <svg xmlns="http://www.w3.org/2000/svg"
+                width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+            </svg>
+            from Mogadishu - Somalia
+        </p>
+    </footer>
+</body>
+
+</html>
